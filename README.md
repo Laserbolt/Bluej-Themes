@@ -1,6 +1,6 @@
 # Bluej-Dark-Theme
 Dark themes for BlueJ Java IDE.
-##Installation Guide
+## Installation Guide
 1.Click on Code at the top-right corner of this repository page and select Download ZIP from the dropdown menu.
 2.Go to your Downloads folder, right-click on bluej-dark-themes-main.zip and select Extract All.
 Now go to Downloads > bluej-dark-themes-main > bluej-dark-themes-main > standard-dark-theme or any other theme folder of your choice from the available options.
