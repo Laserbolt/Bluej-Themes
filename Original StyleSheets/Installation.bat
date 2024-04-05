@@ -1,7 +1,7 @@
 @echo off
 
 REM Define the source folder.
-set "sourcePath=C:\Users\%USERNAME%\Downloads\Bluej-Dark-Theme-main\Original StyleSheets\stylesheets"
+set "sourcePath=%~dp0\stylesheets"
 
 REM Define the destination folder.
 set "destinationPath=C:\Program Files\BlueJ\lib\stylesheets"
