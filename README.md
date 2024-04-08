@@ -21,7 +21,7 @@ Dark themes for BlueJ Java IDE.
 4. Select all files in the theme folder, i.e., ```flow.css```, ```java-colors.css```, ```moe.css``` and ```terminal.css```, and select Copy.  
 5. Go to ```C:\Program Files\BlueJ\lib\stylesheets```, and select ```Paste```.  
 6. Choose to ```Replace the existing files with the same names in this folder```, and click on ```Continue``` if required.  
-7. Close BlueJ if open and start BlueJ again. The editor and terminal windows should have the new theme.  
+7. Close BlueJ if open and start BlueJ again. The editor, terminal windows and project window should have the new theme.  
 8. If you need to switch back to the default theme of BlueJ, you can follow the above procedure and select ```Default theme``` in step-3, or, you can make a copy of the original stylesheets folder before installing the new theme
 
 
