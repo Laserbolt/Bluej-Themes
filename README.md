@@ -21,6 +21,6 @@ Dark themes for BlueJ Java IDE.
 8. If you need to switch back to the default light theme of BlueJ, you can follow the above procedure and select Original StyleSheets in step-3, or, you can make a copy of the original stylesheets folder before installing the new theme
 
 ## ScreenShots
-![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/5a471ed5-88c6-4459-9d69-ec891f2be617)![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/279d7721-481a-4beb-b7bb-8d3236c5db72)
+![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/5a471ed5-88c6-4459-9d69-ec891f2be617)![Dark Theme Screenshot]([https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/279d7721-481a-4beb-b7bb-8d3236c5db72](https://github.com/Laserbolt/Bluej-Dark-Theme/blob/d95e193b29d410d60911aae38dff12bb859acc41/BlueJ%20Dark%20Theme/Dark%20Theme%20Screenshot.jpg))
 
 
