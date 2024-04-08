@@ -10,10 +10,9 @@ Dark themes for BlueJ Java IDE.
 5. If you need to switch back to the default theme of BlueJ, you can follow the above procedure and select ```Default theme``` in step-3, or, you can make a copy of the original stylesheets folder before installing the new theme   
 <br>
 <br>
-  
    ***OR***  
-
-   
+<br>
+<br>
 > [!WARNING]
 > This is advisable for older computers or if the above method fails
 
