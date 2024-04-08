@@ -12,6 +12,8 @@ Dark themes for BlueJ Java IDE.
 
    OR  
 
+> [!CAUTION]
+> This is advisable for older computers or if the above method fails
 
 1\. Click on ```Code``` at the top-right corner of this repository page and select ```ownload ZIP``` from the dropdown menu.  
 2. Go to your``` Downloads``` folder, right-click on ```Bluej-Dark-Theme-main.zip``` and select ```Extract here```.  
