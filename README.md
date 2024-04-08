@@ -22,6 +22,9 @@ Dark themes for BlueJ Java IDE.
 
 ## ScreenShots
 
-![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/5a471ed5-88c6-4459-9d69-ec891f2be617)![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/f78acad7-83e3-4145-ba89-f0b7ea2892dc)
+Default Theme
+![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/5a471ed5-88c6-4459-9d69-ec891f2be617)  
+Dark Theme
+![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/f78acad7-83e3-4145-ba89-f0b7ea2892dc)  
 
 
