@@ -35,7 +35,8 @@ Dark Theme
 ![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/f78acad7-83e3-4145-ba89-f0b7ea2892dc)  
   
 High Contrast Theme  
-![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/4ecd5933-6f7c-48fd-b198-0f7af426a655)
+![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/c6d5397a-e792-4e75-93e1-84c849e11033)
+
 
 
 
