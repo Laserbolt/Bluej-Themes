@@ -36,6 +36,11 @@ Dark Theme
   
 High Contrast Theme  
 ![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/c6d5397a-e792-4e75-93e1-84c849e11033)
+  
+Rose Theme
+![Rose Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/e2fcc71c-f7c8-4240-8cb4-7b17c2d98593)
+
+
 
 
 
