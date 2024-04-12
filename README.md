@@ -75,7 +75,7 @@
 </div>
 <br>
 <br>
-
+This repository serves as a Hub for themes of Bluej a Java IDE.
 
 
 
