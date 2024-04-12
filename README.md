@@ -76,7 +76,7 @@
 <br>
 <br>
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `laserbolt`, `Bluej-Dark-Theme`, `twitter_handle`, `linkedin_username`, `gmail`, `laserbolt9`, `Bluej Theme Hub`, `project_description`
+
 
 
 
