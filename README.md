@@ -66,17 +66,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<br>
-<br>
-<div align="center">
-  <a href="#screenshots">
-    <img src="https://github.com/Laserbolt/test/assets/160458697/a3c3a39e-776f-4a31-8b06-c49ce7bc08dd"  width="800" height="428">
-  </a>
-</div>
+![High Contrast Screenshot](https://github.com/Laserbolt/test/assets/160458697/a3c3a39e-776f-4a31-8b06-c49ce7bc08dd)
 <br>
 <br>
 This repository serves as a Hub for themes of Bluej a Java IDE.
-
 
 
 
