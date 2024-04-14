@@ -107,8 +107,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
    ```
 and select `Paste`.  
 6. Choose to `Replace the existing files with the same names in this folder`, and click on `Continue` if required.  
-7. Restart Bluej.
-8. If you need the default theme of BlueJ, you can follow the above procedure and select `Default theme` in step-3.
+7. Restart Bluej.  
+8. If you need the default theme of BlueJ, you can follow the above procedure and select `Default theme` in step-3.  
 
 
 
