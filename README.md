@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/34af2cf2-d526-44ec-97ec-eb52006fae5d)
+![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/b2062433-84ee-4f97-a0fe-fa03f5fd027f)
 
 
 This repository serves as a Hub for themes of Bluej a Java IDE.
@@ -115,16 +115,16 @@ and select `Paste`.
 ## ScreenShots
 
 Default Theme  
-![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/5a471ed5-88c6-4459-9d69-ec891f2be617)  
+![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/06ef66fe-c14d-4d38-931d-8c2d2a8c62a2)  
   
 Dark Theme  
-![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/f78acad7-83e3-4145-ba89-f0b7ea2892dc)  
+![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/8592488e-1346-4fcf-8b50-00b17e5cbdda)  
   
 High Contrast Theme  
-![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/c6d5397a-e792-4e75-93e1-84c849e11033)
+![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/3747f276-2cf7-490e-b53a-ae8f05a9230a)  
   
 Rose Theme
-![Rose Theme Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/e2fcc71c-f7c8-4240-8cb4-7b17c2d98593)
+![Rose Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/b919ac38-daa7-44a4-8023-36b744ea55c6)  
 
 
 
