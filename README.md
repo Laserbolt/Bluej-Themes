@@ -19,13 +19,13 @@
     Theme Hub for BlueJ Java IDE.
     <br />
     <br />
-    <a href="https://github.com/laserbolt/Bluej-Dark-Theme"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/laserbolt/Bluej-Theme-Hub"><strong>Explore the docs »</strong></a>
     <br />
     <a href="#getting-started">View Demo</a>
     ·
-    <a href="https://github.com/laserbolt/Bluej-Dark-Theme/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/laserbolt/Bluej-Theme-Hub/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/laserbolt/Bluej-Dark-Theme/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/laserbolt/Bluej-Theme-Hub/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 <br>
@@ -82,8 +82,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 ### Installation
 
 1\. Click on `Code` at the top-right corner of this repository page and select `Download ZIP` from the dropdown menu.  
-2. Go to your `Downloads` folder, right-click on `Bluej-Dark-Theme-main.zip` and select `Extract here`.  
-3. Now go to `Downloads` > `Bluej-Dark-Theme-hub` > `Dark Theme` or any other theme folder from the available options.  
+2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub-main.zip` and select `Extract here`.  
+3. Now go to `Downloads` > `Bluej-Theme-Hub-hub` > `Dark Theme` or any other theme folder from the available options.  
 4. For installation double click to open the `Installation.bat` file  
 5. If you need the default theme of BlueJ, you can follow the same steps but select `Default theme` in step-3.  
 <br>
@@ -95,8 +95,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 > This is only advisable for older computers or if the above method fails
 
 1\. Click on `Code` at the top-right corner of this repository page and select `download ZIP` from the dropdown menu.  
-2. Go to your` Downloads` folder, right-click on `Bluej-Dark-Theme-main.zip` and select `Extract here`.  
-3. Now go to `Downloads` > `Bluej-Dark-Theme-hub` > `Dark Theme` > `stylesheets` or any other theme folder from the available options.  
+2. Go to your` Downloads` folder, right-click on `Bluej-Theme-Hub-main.zip` and select `Extract here`.  
+3. Now go to `Downloads` > `Bluej-Theme-Hub-hub` > `Dark Theme` > `stylesheets` or any other theme folder from the available options.  
 4. Select all files in the theme folder and select Copy.  
 5. Go to :  
    ```bat
@@ -140,7 +140,7 @@ Rose Theme
 - [ ] Gradients
 - [ ] Image Background
 
-See the [open issues](https://github.com/laserbolt/Bluej-Dark-Theme/issues)   for known issues.
+See the [open issues](https://github.com/laserbolt/Bluej-Theme-Hub/issues)   for known issues.
 
 
 
@@ -170,7 +170,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Laser is the name - laserbolt9@gmail.com
 
-Project Link: [https://github.com/laserbolt/Bluej-Dark-Theme](https://github.com/laserbolt/Bluej-Dark-Theme)
+Project Link: [https://github.com/laserbolt/Bluej-Theme-Hub](https://github.com/laserbolt/Bluej-Theme-Hub)
 
 
 
@@ -178,7 +178,7 @@ Project Link: [https://github.com/laserbolt/Bluej-Dark-Theme](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [realspal](https://github.com/realspal/Bluej-Dark-Themes)
+* [realspal](https://github.com/realspal/Bluej-Theme-Hubs)
 * [escribiendo-codigo](https://github.com/escribiendo-codigo/BlueJ-Themes)
 * [JonathanGiles-ScenicView](https://github.com/JonathanGiles/scenic-view)
 
@@ -187,14 +187,14 @@ Project Link: [https://github.com/laserbolt/Bluej-Dark-Theme](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/laserbolt/Bluej-Dark-Theme.svg?style=for-the-badge
-[contributors-url]: https://github.com/laserbolt/Bluej-Dark-Theme/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/laserbolt/Bluej-Dark-Theme.svg?style=for-the-badge
-[forks-url]: https://github.com/laserbolt/Bluej-Dark-Theme/network/members
-[stars-shield]: https://img.shields.io/github/stars/laserbolt/Bluej-Dark-Theme.svg?style=for-the-badge
-[stars-url]: https://github.com/laserbolt/Bluej-Dark-Theme/stargazers
-[issues-shield]: https://img.shields.io/github/issues/laserbolt/Bluej-Dark-Theme.svg?style=for-the-badge
-[issues-url]: https://github.com/laserbolt/Bluej-Dark-Theme/issues
-[license-shield]: https://img.shields.io/github/license/laserbolt/Bluej-Dark-Theme.svg?style=for-the-badge
-[license-url]: https://github.com/laserbolt/Bluej-Dark-Theme/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
+[contributors-url]: https://github.com/laserbolt/Bluej-Theme-Hub/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
+[forks-url]: https://github.com/laserbolt/Bluej-Theme-Hub/network/members
+[stars-shield]: https://img.shields.io/github/stars/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
+[stars-url]: https://github.com/laserbolt/Bluej-Theme-Hub/stargazers
+[issues-shield]: https://img.shields.io/github/issues/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
+[issues-url]: https://github.com/laserbolt/Bluej-Theme-Hub/issues
+[license-shield]: https://img.shields.io/github/license/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
+[license-url]: https://github.com/laserbolt/Bluej-Theme-Hub/blob/master/LICENSE.txt
 [product-screenshot]: https://github.com/Laserbolt/test/assets/160458697/a3c3a39e-776f-4a31-8b06-c49ce7bc08dd
