@@ -14,12 +14,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/laserbolt/Bluej-Dark-Theme">
-    <img src="https://github.com/Laserbolt/test/assets/160458697/2338a4b1-3a98-443e-acf4-fc44ffe1a0ed" alt="Logo" width="190" height="190">
-  </a>
-
 <h3 align="center">Bluej Theme Hub</h3>
-
   <p align="center">
     Theme Hub for BlueJ Java IDE.
     <br />
@@ -67,6 +62,7 @@
 ## About The Project
 
 ![High Contrast Screenshot](https://github.com/Laserbolt/test/assets/160458697/a3c3a39e-776f-4a31-8b06-c49ce7bc08dd)
+
 <br>
 <br>
 This repository serves as a Hub for themes of Bluej a Java IDE.
