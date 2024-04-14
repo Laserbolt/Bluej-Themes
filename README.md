@@ -61,6 +61,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+* Visit The Active Repository at :  
+   [[Bluej Theme Hub Official Repo]](https://github.com/Laserbolt/Bluej-Theme-Hub)  
+
 ![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Dark-Theme/assets/160458697/34af2cf2-d526-44ec-97ec-eb52006fae5d)
 
 
