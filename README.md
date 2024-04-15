@@ -82,8 +82,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 ### Installation
 
 1\. Click on `Code` at the top-right corner of this repository page and select `Download ZIP` from the dropdown menu.  
-2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub-Menu.zip` and select `Extract here`.  
-3. Now go to `Downloads` > `Bluej-Theme-Hub-Menu` > `Dark Theme` or any other theme folder from the available options.  
+2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub-.zip` and select `Extract here`.  
+3. Now go to `Downloads` > `Bluej-Theme-Hub-` > `Dark Theme` or any other theme folder from the available options.  
 4. For installation double click to open the `Installation.bat` file  
 5. If you need the default theme of BlueJ, you can follow the same steps but select `Default theme` in step-3.  
 <br>
@@ -95,8 +95,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 > This is only advisable for older computers or if the above method fails
 
 1\. Click on `Code` at the top-right corner of this repository page and select `download ZIP` from the dropdown menu.  
-2. Go to your` Downloads` folder, right-click on `Bluej-Theme-Hub-Menu.zip` and select `Extract here`.  
-3. Now go to `Downloads` > `Bluej-Theme-Hub-Menu` > `Dark Theme` > `stylesheets` or any other theme folder from the available options.  
+2. Go to your` Downloads` folder, right-click on `Bluej-Theme-Hub-.zip` and select `Extract here`.  
+3. Now go to `Downloads` > `Bluej-Theme-Hub-` > `Dark Theme` > `stylesheets` or any other theme folder from the available options.  
 4. Select all files in the theme folder and select Copy.  
 5. Go to :  
    ```bat
