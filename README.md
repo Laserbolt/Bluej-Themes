@@ -54,14 +54,14 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
-</details>
+</details> 
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/b2062433-84ee-4f97-a0fe-fa03f5fd027f)
+![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Themes/assets/160458697/85c54c94-6b54-4a8d-8c12-bed01eac0dd1)
 
 
 This repository serves as a Hub for themes of Bluej a Java IDE.
