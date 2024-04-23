@@ -7,13 +7,15 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
+<br> 
 <br>
-<br>
-
-
+ 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+    <a href="https://github.com/laserbolt/Bluej-Dark-Theme">
+      <img src="https://github.com/Laserbolt/Bluej-Themes/assets/160458697/05131f92-de14-40b1-b4b3-9e486973ce41" alt="Logo" width="190" height="190">
+    </a>
 <h3 align="center">Bluej Theme Hub</h3>
   <p align="center">
     Theme Hub for BlueJ Java IDE.
