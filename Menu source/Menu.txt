@@ -1,6 +1,5 @@
 @ECHO OFF
 @Title %~n0
-cd "%~dp0\Menu code"
 color 0F
 
 :MENU
@@ -31,23 +30,51 @@ ECHO                    ┏━━━━━━━━━━━━━━━━━�
 ECHO                    ┃                              ┃           ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ECHO                    ┃  THEMES:                     ┃           ┃                            ┃
 ECHO                    ┃                              ┃           ┃  OPTIONS:                  ┃
+if "%Theme%" EQU "1" GOTO Defaulten
 ECHO                    ┃   ┏━━━━━━━━━━━━━━━━━┓        ┃           ┃                            ┃
 ECHO                    ┃   ┃ 1-Default Theme ┃        ┃           ┃   ┏━━━━━━━━━━━━━┓          ┃
 ECHO                    ┃   ┗━━━━━━━━━━━━━━━━━┛        ┃           ┃   ┃ 5-Exit Menu ┃          ┃
+GOTO Defaultov
+:Defaulten
+ECHO                    ┃   [92m┏━━━━━━━━━━━━━━━━━┓[0m        ┃           ┃                            ┃
+ECHO                    ┃   [92m┃ 1-Default Theme ┃[0m        ┃           ┃   ┏━━━━━━━━━━━━━┓          ┃
+ECHO                    ┃   [92m┗━━━━━━━━━━━━━━━━━┛[0m        ┃           ┃   ┃ 5-Exit Menu ┃          ┃
+:Defaultov
+if "%Theme%" EQU "2" GOTO Darken
 ECHO                    ┃   ┏━━━━━━━━━━━━━━┓           ┃           ┃   ┗━━━━━━━━━━━━━┛          ┃
 ECHO                    ┃   ┃ 2-Dark Theme ┃           ┃           ┃   ┏━━━━━━━━━━━━━━━┓        ┃
 ECHO                    ┃   ┗━━━━━━━━━━━━━━┛           ┃           ┃   ┃ 6-Access Data ┃        ┃
+GOTO Darkov
+:Darken
+ECHO                    ┃   [92m┏━━━━━━━━━━━━━━┓[0m           ┃           ┃   ┗━━━━━━━━━━━━━┛          ┃
+ECHO                    ┃   [92m┃ 2-Dark Theme ┃[0m           ┃           ┃   ┏━━━━━━━━━━━━━━━┓        ┃
+ECHO                    ┃   [92m┗━━━━━━━━━━━━━━┛[0m           ┃           ┃   ┃ 6-Access Data ┃        ┃
+:Darkov
+if "%Theme%" EQU "3" GOTO Roseen
 ECHO                    ┃   ┏━━━━━━━━━━━━━━┓           ┃           ┃   ┗━━━━━━━━━━━━━━━┛        ┃
 ECHO                    ┃   ┃ 3-Rose Theme ┃           ┃           ┃   ┏━━━━━━━━━━━━━━┓         ┃
 ECHO                    ┃   ┗━━━━━━━━━━━━━━┛           ┃           ┃   ┃ 7-Open Bluej ┃         ┃
+GOTO Roseov
+:Roseen
+ECHO                    ┃   [92m┏━━━━━━━━━━━━━━┓[0m           ┃           ┃   ┗━━━━━━━━━━━━━━━┛        ┃
+ECHO                    ┃   [92m┃ 3-Rose Theme ┃[0m           ┃           ┃   ┏━━━━━━━━━━━━━━┓         ┃
+ECHO                    ┃   [92m┗━━━━━━━━━━━━━━┛[0m           ┃           ┃   ┃ 7-Open Bluej ┃         ┃
+:Roseov
+if "%Theme%" EQU "4" GOTO Highen
 ECHO                    ┃   ┏━━━━━━━━━━━━━━━━━━━━━━━┓  ┃           ┃   ┗━━━━━━━━━━━━━━┛         ┃
 ECHO                    ┃   ┃ 4-High Contrast Theme ┃  ┃           ┃                            ┃
 ECHO                    ┃   ┗━━━━━━━━━━━━━━━━━━━━━━━┛  ┃           ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+GOTO Highov
+:Highen
+ECHO                    ┃   [92m┏━━━━━━━━━━━━━━━━━━━━━━━┓[0m  ┃           ┃   ┗━━━━━━━━━━━━━━┛         ┃
+ECHO                    ┃   [92m┃ 4-High Contrast Theme ┃[0m  ┃           ┃                            ┃
+ECHO                    ┃   [92m┗━━━━━━━━━━━━━━━━━━━━━━━┛[0m  ┃           ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+:Highov
 ECHO                    ┃                              ┃           
 ECHO                    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛           
 ECHO.
 ECHO.
-SET /P errorlevel=.                         Type the number next to the option and press enter:
+SET /P errorlevel=.                          Type the number next to the option and press enter:
 chcp 437 >NUL
 
 CLS
@@ -63,21 +90,30 @@ GOTO MENU
 :Selection1
 xcopy /Q /Y /E /I "%~dp0\Default Theme\stylesheets" "C:\Program Files\BlueJ\lib\stylesheets"
 taskkill /f /im javaw.exe
+set Theme=1
+echo %Theme% > save.txt
 GOTO complete
 
 :Selection2
 xcopy /Q /Y /E /I "%~dp0\Dark Theme\stylesheets" "C:\Program Files\BlueJ\lib\stylesheets"
 taskkill /f /im javaw.exe
+set Theme=2
+echo %Theme% > save.txt
 GOTO complete
 
 :Selection3
 xcopy /Q /Y /E /I "%~dp0\Rose Theme\stylesheets" "C:\Program Files\BlueJ\lib\stylesheets"
 taskkill /f /im javaw.exe
+set Theme=3
+echo %Theme% > save.txt
 GOTO complete
+
 
 :Selection4
 xcopy /Q /Y /E /I "%~dp0\High Contrast Theme\stylesheets" "C:\Program Files\BlueJ\lib\stylesheets"
 taskkill /f /im javaw.exe
+set Theme=4
+echo %Theme% > save.txt
 GOTO complete
 
 :complete
