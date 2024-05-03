@@ -78,12 +78,12 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 ### Requirments
 
-* Bluej(Windows only) get free a download at :  
+* Bluej(Windows only) get a free download at :  
    [[Bluej Official Website]](https://www.bluej.org)  
 
 ### Installation
 
-1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu.  
+1\. Click [here](https://github.com/Laserbolt/Bluej-Themes/archive/refs/heads/Hub.zip).   (or click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)  
 2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub.zip` and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.bat`.  
 4. Choose a theme of your choice.  
@@ -100,13 +100,10 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 3. Go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme` > `stylesheets` or any other theme folder from the options.  
 4. Select all files in the folder and select Copy.  
 5. Go to :  
-   ```bat
-   C:\Program Files\BlueJ\lib\stylesheets
-   ```
-and select `Paste`.  
+   `C:\Program Files\BlueJ\lib\stylesheets`  
+   and select `Paste`.  
 6. Choose to `Replace the existing files with the same names in this folder`, and click on `Continue` if needed.  
 7. Restart Bluej.  
-8. If you need the default theme of BlueJ, you can follow the above steps but select `Default theme` in step-3.
 
 
 
@@ -166,12 +163,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Laser is the name - laserbolt9@gmail.com
-
-Project Link: [https://github.com/laserbolt/Bluej-Theme-Hub](https://github.com/laserbolt/Bluej-Theme-Hub)
 
 
 
@@ -181,7 +172,6 @@ Project Link: [https://github.com/laserbolt/Bluej-Theme-Hub](https://github.com/
 
 * [realspal](https://github.com/realspal/Bluej-Theme-Hubs)
 * [escribiendo-codigo](https://github.com/escribiendo-codigo/BlueJ-Themes)
-* [JonathanGiles-ScenicView](https://github.com/JonathanGiles/scenic-view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
