@@ -187,5 +187,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 [issues-shield]: https://img.shields.io/github/issues/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
 [issues-url]: https://github.com/laserbolt/Bluej-Theme-Hub/issues
 [license-shield]: https://img.shields.io/github/license/laserbolt/Bluej-Theme-Hub.svg?style=for-the-badge
-[license-url]: https://github.com/laserbolt/Bluej-Theme-Hub/blob/master/LICENSE.txt
+[license-url]: https://github.com/Laserbolt/Bluej-Themes/blob/Hub/LICENSE.txt
 [product-screenshot]: https://github.com/Laserbolt/test/assets/160458697/a3c3a39e-776f-4a31-8b06-c49ce7bc08dd
