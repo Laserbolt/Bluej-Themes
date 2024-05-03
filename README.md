@@ -83,7 +83,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 ### Installation
 
-1\. Click [here](https://github.com/Laserbolt/Bluej-Themes/archive/refs/heads/Hub.zip).   (or click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)  
+1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)  
 2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub.zip` and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.bat`.  
 4. Choose a theme of your choice.  
