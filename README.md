@@ -167,11 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
 
-* [realspal](https://github.com/realspal/Bluej-Theme-Hubs)
-* [escribiendo-codigo](https://github.com/escribiendo-codigo/BlueJ-Themes)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
