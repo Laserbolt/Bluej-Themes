@@ -46,7 +46,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#requirments">Requirments</a></li>
-        <li><a href="#installation-windows">Installation (Windows)</a></li>
+        <li><a href="#installation-windows-10-or-above">Installation (Windows)</a></li>
         <li><a href="#installation-not-windows">Installation (Not Windows)</a></li>
       </ul>
     </li>
