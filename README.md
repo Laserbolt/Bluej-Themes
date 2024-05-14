@@ -77,7 +77,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 ### Requirments
 
-* Bluej(Windows only) get a free download at :  
+* Download Bluej at :  
    [[Bluej Official Website]](https://www.bluej.org)  
 
 ### Installation (Windows)
