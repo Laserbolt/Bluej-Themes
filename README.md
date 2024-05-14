@@ -46,15 +46,14 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#requirments">Requirments</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation-windows">Installation (Windows)</a></li>
+        <li><a href="#installation-not-windows">Installation (Not Windows)</a></li>
       </ul>
     </li>
     <li><a href="#screenshots">ScreenShots</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details> 
 
@@ -81,10 +80,10 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 * Bluej(Windows only) get a free download at :  
    [[Bluej Official Website]](https://www.bluej.org)  
 
-### Installation
+### Installation (Windows)
 
 1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)  
-2. Go to your `Downloads` folder, right-click on `Bluej-Theme-Hub.zip` and select `Extract here`.  
+2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.bat`.  
 4. Choose a theme of your choice.  
 <br>
@@ -93,20 +92,22 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 <br>
 <br>
 > [!WARNING]
-> This method only advisable for older computers or if the above method fails
+> This method is only advisable for older computers or if the above method fails
 
-1\. Click on `Code` at the top-right corner of this page and select `download ZIP` from the dropdown menu.  
-2. Go to your` Downloads` folder, right-click on `Bluej-Theme-Hub.zip` and select `Extract here`.  
+1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu.  
+2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme` > `stylesheets` or any other theme folder from the options.  
 4. Select all files in the folder and select Copy.  
 5. Go to :  
    `C:\Program Files\BlueJ\lib\stylesheets`  
    and select `Paste`.  
-6. Choose to `Replace the existing files with the same names in this folder`, and click on `Continue` if needed.  
+6. Choose `Replace the existing files with the same names in this folder`, and click `Continue` if needed.  
 7. Restart Bluej.  
 
 
+### Installation (Not Windows)
 
+Other operating systems other than Windows will have to use the second installation option shown above and paste the files according to [this](https://www.bluej.org/faq.html#faq_config:~:text=to%20generate%20documentation.-,Where%20does%20BlueJ%20store%20its%20settings%3F,-BlueJ%20has%20two) document by the Bluej team
 
 
 <!-- USAGE EXAMPLES -->
@@ -146,9 +147,9 @@ See the [open issues](https://github.com/laserbolt/Bluej-Theme-Hub/issues)   for
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 
