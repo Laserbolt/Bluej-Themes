@@ -80,7 +80,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 * Download Bluej at :  
    [[Bluej Official Website]](https://www.bluej.org)  
 
-### Installation (Windows)
+### Installation (Windows 10 or above)
 
 1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)  
 2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
@@ -92,7 +92,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 <br>
 <br>
 > [!WARNING]
-> This method is only advisable for older computers or if the above method fails
+> This method is only advisable for older computers (Windows 8 or below) or if the above method fails
 
 1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu.  
 2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
