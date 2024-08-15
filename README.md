@@ -51,7 +51,6 @@
       </ul>
     </li>
     <li><a href="#screenshots">ScreenShots</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -128,19 +127,6 @@ Rose Theme
 
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Project Menu
-- [x] Terminal
-    - [ ] Output
-- [x] Editor
-    - [ ] Title Bar
-- [ ] Gradients
-- [ ] Image Background
-
-See the [open issues](https://github.com/laserbolt/Bluej-Theme-Hub/issues)   for known issues.
 
 
 
