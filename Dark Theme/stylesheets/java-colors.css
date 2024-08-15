@@ -1,0 +1,76 @@
+.token-keyword1 {
+    -fx-fill: #db75a8; /*modified*/
+}
+.token-keyword2 {
+    -fx-fill: #ff8351; /*modified*/ 
+}
+.token-keyword3 {
+    -fx-fill: #459ac5; /*modified*/
+}
+
+.token-comment-normal {
+    -fx-fill: #4384b9; /*modified*/
+}
+.token-comment-javadoc {
+    -fx-fill: #8888ff; /*modified*/
+}
+.token-comment-special {
+    -fx-fill: #fd62dc; /*modified*/
+}
+
+.token-primitive {
+    -fx-fill: #f56d6d; /*modified*/
+}
+.token-char-literal { 
+	-fx-fill: #d8a445; /*modified*/ 
+}
+.token-string-literal {
+    -fx-fill: #4ca74c; /*modified*/
+}
+.token-label {
+    -fx-fill: #616161; /*modified*/
+}
+.token-invalid {
+    -fx-fill: #ff8c6f; /*modified*/
+}
+/* Default text colour */
+.token-default {
+    -fx-fill: #ffffff; /*modified*/
+}
+
+.scope-colors {
+    -bj-background-color: #333333; /*modified*/
+
+    -bj-class-color: #222222; /*modified*/
+    -bj-class-outer-color: #222222; /*modified*/
+    -bj-class-inner-color: #333333; /*modified*/
+
+    -bj-method-color: #2d2d2d; /*modified*/
+    -bj-method-outer-color: #2d2d2d; /*modified*/
+
+    -bj-selection-color: #3c3c4b; /*modified    - if*/
+    -bj-selection-outer-color: #3c3c4b; /*modified*/
+
+    -bj-iteration-color: #463c4b; /*modified     - loop*/
+    -bj-iteration-outer-color: #463c4b; /*modified*/
+
+    -bj-breakpoint-overlay-color: rgba(216, 83, 83, 0.6); /*modified*/
+    -bj-step-overlay-color: rgba(72, 160, 72, 0.6); /*modified*/
+}
+
+.moe-step-mark-icon {
+    -fx-fill: #148c14; /*modified*/
+    -fx-stroke: #ffffff; /*modified*/
+}
+
+.moe-editor-pane {
+    -fx-background-color: #0f0f0f; /*modified*/
+    -fx-highlight-fill: hsb(211, 33%, 36%); /*modified*/
+}
+
+.moe-find-result {
+    -rtfx-background-color: hsb(211, 29%, 37%); /*modified*/
+}
+.moe-editor-pane .caret {
+   -fx-stroke: #ff93be; /*modified*/
+}#
