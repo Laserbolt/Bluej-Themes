@@ -123,7 +123,8 @@ High Contrast Theme
 ![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/3747f276-2cf7-490e-b53a-ae8f05a9230a)  
   
 Rose Theme
-![Rose Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/b919ac38-daa7-44a4-8023-36b744ea55c6)  
+![Rose Theme Screenshot](https://github.com/user-attachments/assets/5d617a2e-feea-4db7-9317-03eae21da807)
+
 
 
 
