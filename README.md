@@ -79,7 +79,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 * Download Bluej at :  
    [[Bluej Official Website]](https://www.bluej.org)  
 
-### Installation (Windows 10 or above)
+### Installation (Windows) 
 
 1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu.  
 2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
@@ -99,8 +99,8 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 <br>
   
   
-> [!CAUTION]
-> This method is preferred but is only possible if the folder of bluej has write permission for the user  
+> [!WARNING]
+> This method is preferred but is only possible if the user can run the file with admin permission once
 
  1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)    
 2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
@@ -110,7 +110,18 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 ### Installation (Not Windows)
 
-Other operating systems other than Windows will have to use the second installation option shown above and paste the files according to [this](https://www.bluej.org/faq.html#faq_config:~:text=to%20generate%20documentation.-,Where%20does%20BlueJ%20store%20its%20settings%3F,-BlueJ%20has%20two) document by the Bluej team
+Mac:  
+
+Mac users have to run `chflags nohidden ~/Library/ ` in the terminal and paste the css files to this location:  
+`/User/your-user-name/Library/Preferences/org.bluej/bluej.properties`  
+
+Linux:  
+
+Linux users will have to  paste the css files to this location:  
+`your-home-directory/.bluej/bluej.properties`  
+Note that ".bluej" is normally an invisible directory.
+
+Other operating systems paste the files according to [this](https://www.bluej.org/faq.html#faq_config:~:text=to%20generate%20documentation.-,Where%20does%20BlueJ%20store%20its%20settings%3F,-BlueJ%20has%20two) document by the Bluej team
 
 
 <!-- USAGE EXAMPLES -->
