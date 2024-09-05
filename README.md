@@ -104,7 +104,7 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
  1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)    
 2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
-3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.bat`.  
+3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `ThemeMenu.hta`.  
 4. Choose a theme of your choice.  
 
 
@@ -112,12 +112,12 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 Mac:  
 
-Mac users have to run `chflags nohidden ~/Library/ ` in the terminal and paste the css files to this location:  
+Mac users have to run `chflags nohidden ~/Library/ ` in the terminal and paste the CSS files to this location:  
 `/User/your-user-name/Library/Preferences/org.bluej/bluej.properties`  
 
 Linux:  
 
-Linux users will have to  paste the css files to this location:  
+Linux users will have to  paste the CSS files to this location:  
 `your-home-directory/.bluej/bluej.properties`  
 Note that ".bluej" is normally an invisible directory.
 
@@ -153,10 +153,6 @@ Contributions make the open-source community an amazing place to learn, inspire,
 
 If you have a suggestion, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
-
-
-
-
 
 <!-- LICENSE -->
 ## License
