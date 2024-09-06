@@ -112,14 +112,9 @@ This repository serves as a Hub for themes of Bluej a Java IDE.
 
 Mac:  
 
-Mac users have to run `chflags nohidden ~/Library/ ` in the terminal and paste the CSS files to this location:  
-`/User/your-user-name/Library/Preferences/org.bluej/bluej.properties`  
-
-Linux:  
-
-Linux users will have to  paste the CSS files to this location:  
-`your-home-directory/.bluej/bluej.properties`  
-Note that ".bluej" is normally an invisible directory.
+Mac users have to the blueJ application in finder, then right click(or control+click), and   
+click "Show Package Contents" and paste the CSS files to this location:  
+`Contents/Resources/Java/stylesheets`  
 
 Other operating systems paste the files according to [this](https://www.bluej.org/faq.html#faq_config:~:text=to%20generate%20documentation.-,Where%20does%20BlueJ%20store%20its%20settings%3F,-BlueJ%20has%20two) document by the Bluej team
 
