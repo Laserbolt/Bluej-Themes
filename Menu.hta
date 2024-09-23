@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta  http-equiv="x-ua-compatible" content="IE=edge" charset="UTF-8">
+    <title> </title>
+    <style>
+    body{
+    	font-family: 'Roboto', sans-serif;
+	    font-weight: 400;
+	    font-size: 15px;
+	    line-height: 1.7;
+    	color: #fff;
+      	background-color: #1f2029;
+        min-height: 100vh;
+       margin: 0;
+        padding: 0;
+    }
+    .close-button {
+        line-height: 1;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        background-color: transparent;
+        border: none;
+        padding: 5px;
+        z-index: 10;
+    }
+
+    .close-button:hover {
+        color: rgba(255, 0, 0, 0.44);
+    }
+    p{
+    	font-family: 'Roboto', sans-serif;
+	    font-weight: 400;
+	    font-size: 16px;
+	    line-height: 1.7;
+	    color: #fff;
+        margin: 0;
+    }
+    .section-fluid-main{
+        position: relative;
+        display: block;
+        left: 250px;
+        width: 1200px;
+    }
+    .section{
+        position: relative;
+        width: 860px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 100px 0;
+    }
+
+    [type="radio"]:checked,
+    [type="radio"]:not(:checked){
+        position: absolute;
+        visibility: hidden;
+    }
+    .color-btn:checked + label,
+    .color-btn:not(:checked) + label{
+
+        height: 40px;
+        transition: all 200ms linear;
+        border-radius: 4px;
+        width: 40px;
+        color: #ffeba7;
+        margin-right: 10px;
+        box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+        z-index: 10;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid transparent;
+    }
+    .color-btn:checked + label{
+        border-color: #434343;
+        transform: scale(1.1);
+    }
+    label.first-color{
+        margin-left: 500px;
+        background-image: linear-gradient(196deg,#0a446a,#ffffff);
+    }
+    label.color-2{
+        background-image: linear-gradient(196deg,#4c4c4c,#272727);
+    }
+    label.color-3{
+        background-image: linear-gradient(196deg,#bd9f99,#ffffff);
+    }
+    label.color-4{
+        background-image: linear-gradient(196deg,#4c4c4c,#000000);
+    }
+
+    .img-wrap{
+        position: absolute;
+        top: 100px;
+        right: 500px;
+        width: 720px;
+        height: 1021px;
+        display: inline-block;
+        z-index: 9;
+
+        transition: opacity 250ms ease-in-out;
+        transition-delay: 300ms;
+        background-position: center top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url('res/Default.jpg');
+        opacity: 0;
+    }
+    .for-color-1:checked ~ .img-wrap.chair-1{
+        opacity: 1;
+    }
+    .img-wrap.chair-2{
+        background-image: url('res/Dark.jpg');
+    }
+    .for-color-2:checked ~ .img-wrap.chair-2{
+        opacity: 1;
+    }
+    .img-wrap.chair-3{
+        background-image: url('res/Rose.jpg');
+    }
+    .for-color-3:checked ~ .img-wrap.chair-3{
+        opacity: 1;
+    }
+    .img-wrap.chair-4{
+        background-image: url('res/High.jpg');
+    }
+    .for-color-4:checked ~ .img-wrap.chair-4{
+        opacity: 1;
+    }
+
+    .back-color {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        z-index: 1;
+        background-image: linear-gradient(196deg,#0a446a,#ffffff);
+        transition: all 250ms 300ms linear;
+    }
+    
+    .back-color.chair-2 {
+        background-image: linear-gradient(196deg,#4c4c4c,#272727);
+        opacity: 0;
+    }
+    .for-color-2:checked ~ .back-color.chair-2{
+        opacity: 1;
+    }
+    .back-color.chair-3 {
+        background-image: linear-gradient(196deg,#947c76,#ffffff);
+        opacity: 0;
+    }
+    .for-color-3:checked ~ .back-color.chair-3{
+        opacity: 1;
+    }
+    .back-color.chair-4 {
+        background-image: linear-gradient(196deg,#4c4c4c,#000000);
+        opacity: 0;
+    }
+    .for-color-4:checked ~ .back-color.chair-4{
+        opacity: 1;
+    }
+
+    .info-wrap{
+        position: relative;
+        margin-left: 500px;
+        z-index: 10;
+        display: block;
+    }
+    .title-up {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 13px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 1.2;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    h5{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.2;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        position: relative;
+        cursor: default;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 2;
+        height: 48px;
+        border-radius: 4px;
+        width: 210px;
+        letter-spacing: 1px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        overflow: hidden;
+        background-color: transparent;
+        color: #fff;
+        box-shadow: 0 6px 15px 0 rgba(16,39,112,.15);
+        transition: all 250ms linear;
+        text-decoration: none;
+        margin-top: 50px;
+    }
+
+    .btn:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        z-index: -1;
+        background-color: #40566e;
+        transition: background-color 250ms 300ms ease;
+    }
+    .btn:hover{
+        box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+        background-color: #000;
+    }
+    .for-color-2:checked ~ .info-wrap .btn:before{
+        background-color: #1a1a1a;
+    }
+    .for-color-3:checked ~ .info-wrap .btn:before{
+        background-color: #947269;
+    }
+    .for-color-4:checked ~ .info-wrap .btn:before{
+        background-color: #1a1a1a;
+    }
+    </style>
+</head>
+
+<body>
+<div class="section-fluid-main">
+     <button class="close-button" onclick="window.close()">X</button>
+        <div class="section">
+              <div class="info-wrap mob-margin">
+                  <p class="title-up">THEME</p>
+                  <h2>Default</h2>
+                  <br>
+
+                          <p id="paragraph">The default BlueJ theme is clean and simple, with a light background and dark text, designed for clarity and ease of use by beginners.</p>    
+                        <br></br>
+
+                  <h5>Choose theme:</h5>
+              </div>
+              <div class="clearfix"></div>
+              <input class="color-btn for-color-1" type="radio" id="color-1" name="color-btn" checked/>
+              <label class="first-color" for="color-1"></label> 
+              <input class="color-btn for-color-2" type="radio" id="color-2" name="color-btn"/>
+              <label class="color-2" for="color-2"></label> 
+              <input class="color-btn for-color-3" type="radio" id="color-3" name="color-btn"/>
+              <label class="color-3" for="color-3"></label> 
+              <input class="color-btn for-color-4" type="radio" id="color-4" name="color-btn"/>
+              <label class="color-4" for="color-4"></label> 
+              <div class="clearfix"></div>
+              <div class="info-wrap">
+                <a href="#" class="btn" id="apply">Apply</a>
+              </div>
+              <div class="img-wrap chair-1"></div>
+              <div class="img-wrap chair-2"></div>    
+              <div class="img-wrap chair-3"></div>
+              <div class="img-wrap chair-4"></div>   
+              <div class="back-color"></div>    
+              <div class="back-color chair-2"></div>    
+              <div class="back-color chair-3"></div>    
+              <div class="back-color chair-4"></div>    
+        </div>
+    </div>
+  <script language+"text/javascript">
+    
+        document.onmousedown = dragWindow;
+        document.onmouseup = dragWindow;
+        window.onload = injectHTAAttributes;
+        
+        window.resizeTo(1300, 650);
+        
+        let t = 1;
+        var oShell = new ActiveXObject("WScript.Shell");
+        const button1 = document.getElementById('color-1');
+        const button2 = document.getElementById('color-2');
+        const button3 = document.getElementById('color-3');   
+        const button4 = document.getElementById('color-4');
+        const apply = document.getElementById('apply');
+  
+    function injectHTAAttributes() {
+        var htaTag = document.createElement("hta:application");
+        htaTag.setAttribute("border", "thin");
+        htaTag.setAttribute("caption", "no");
+        htaTag.setAttribute("scroll", "no");
+        htaTag.setAttribute("contextmenu", "no");
+        htaTag.setAttribute("selection", "no");
+
+        document.head.appendChild(htaTag);
+    }
+    
+    function dragWindow(event) {
+        if (event.type === 'mousedown') {
+            offsetX = event.clientX;
+            offsetY = event.clientY;
+
+            if (event.clientY <= 50) {
+                document.onmousemove = dragWindow;
+            }
+        } else if (event.type === 'mousemove') {
+            window.moveTo(event.screenX - offsetX, event.screenY - offsetY);
+        } else if (event.type === 'mouseup') {
+            document.onmousemove = null;
+        }
+    }
+    
+    function changeHeading(buttonText) {
+        const heading = document.querySelector('h2');
+        heading.textContent = buttonText;
+    }
+
+    function changeParagraph(paragraphText) {
+        const paragraph = document.getElementById('paragraph');
+        paragraph.textContent = paragraphText;
+    }
+
+    button1.addEventListener('click', function() {
+      t = 1;
+      changeHeading('Default');
+      changeParagraph('The default BlueJ theme is clean and simple, with a light background and dark text, designed for clarity and ease of use by beginners.');
+    });
+    button2.addEventListener('click', function() {
+      t = 2;
+      changeHeading('Dark');
+      changeParagraph('The dark theme for BlueJ offers a visually appealing and ergonomic workspace, reducing eye strain and enhancing code readability.');
+    });
+    button3.addEventListener('click', function() {
+      t = 3;
+      changeHeading('Rose');
+      changeParagraph('The rose theme for BlueJ features a soft, color palette inspired by roses, providing a visually pleasing and calming environment for coding.');
+    });
+    button4.addEventListener('click', function() {
+      t = 4;
+      changeHeading('High Contrast');
+      changeParagraph('The high contrast theme for BlueJ features a color palette designed to maximize readability, providing a clear and easily discernible workspace.');
+    });
+    apply.addEventListener('click', function() {
+      var command = "cmd.exe /c dat.bat " + t;
+      oShell.Run(command);
+    });
+    
+  </script>
+</body>
+
+</html>
