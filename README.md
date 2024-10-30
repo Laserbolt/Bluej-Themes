@@ -110,7 +110,7 @@ This method is preferred but is only possible if the user has administrator righ
 
 Mac:  
 
-Mac users have to the blueJ application in finder, then right click(or control+click), and   
+Mac users have find the blueJ application in finder, then right click(or control+click), and   
 click "Show Package Contents" and paste the CSS files to this location:  
 `Contents/Resources/Java/stylesheets`  
 
@@ -121,16 +121,16 @@ Other operating systems paste the files according to [this](https://www.bluej.or
 ## ScreenShots
 
 Default Theme  
-![Default Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/06ef66fe-c14d-4d38-931d-8c2d2a8c62a2)  
+![Default Theme Screenshot](/res/Default.jpg)  
   
 Dark Theme  
-![Dark Theme Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/8592488e-1346-4fcf-8b50-00b17e5cbdda)  
+![Dark Theme Screenshot](/res/Dark.jpg)  
   
 High Contrast Theme  
-![High Contrast Screenshot](https://github.com/Laserbolt/Bluej-Theme-Hub/assets/160458697/3747f276-2cf7-490e-b53a-ae8f05a9230a)  
+![High Contrast Screenshot](/res/High.jpg)  
   
 Rose Theme
-![Rose Theme Screenshot](https://github.com/user-attachments/assets/5d617a2e-feea-4db7-9317-03eae21da807)
+![Rose Theme Screenshot](/res/Rose.jpg)
 
 
 
