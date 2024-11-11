@@ -12,21 +12,21 @@
     -fx-label-padding: 0 0.3em 0 0.3em;
 }
 .margin-and-text-line {
-    -fx-background-color: black; /*modified*/
+    -fx-background-color: #111111; /*modified*/
     -fx-cursor: text;
 }
 .flow-margin-line {
-    -fx-stroke: grey;
+    -fx-stroke: #111111;
 }
 .flow-margin-background {
-    -fx-background-color: black; /*modified*/
+    -fx-background-color: #111111; /*modified*/
     -fx-cursor: default;
 }
 .margin-and-text-line:bj-margin-uncompiled .flow-margin-background {
-    -fx-background-color: hsb(0, 0%, 15%); /*modified*/
+    -fx-background-color: #111111; /*modified*/
 }
 .margin-and-text-line:bj-margin-error .flow-margin-background {
-    -fx-background-color: hsb(0, 70%, 50%);
+    -fx-background-color: #770101;
 }
 .moe-breakpoint-icon, .moe-step-mark-icon {
     -fx-cursor: default;
@@ -57,5 +57,5 @@
 }
 
 .line-container {
-    -fx-background-color: black; /*modified*/
+    -fx-background-color: #111111; /*modified*/
 }

@@ -4,15 +4,31 @@
     css-target: rgb(197, 205, 206);
     text-target: rgb(197, 205, 206);
     externalfile-target: rgb(156, 220, 240);
-    window-background: black;
+    window-background: #111111;
     class-diagram: #222222;
     object-bench: #222222;
     codepad: #222222;
     codepad-input: grey;
     pane-border-color: #222222;
 }
+
+.button {
+    -fx-background-color: #222222;
+    -fx-text-fill: #666666;
+}
+
+.menu-bar {
+    -fx-background-color: #111111;
+    -fx-font-size: 15;
+    -fx-font-family: System;
+}
+
+.menu-button:hover {
+    -fx-background-color: #444444;
+}
+
 .context-menu {
-    -fx-background-color: #2e2e2e; /* Background color of the context menu */
+    -fx-background-color: #111111; /* Background color of the context menu */
     -fx-border-color: #444; /* Border color of the menu */
     -fx-border-width: 1px; /* Border width */
     -fx-border-radius: 5px;
@@ -20,7 +36,7 @@
 
 /* Style for the context menu items */
 .context-menu .menu-item {
-    -fx-background-color: transparent; /* Background color for menu items */
+    -fx-background-color: #111111; /* Background color for menu items */
     -fx-border-radius: 5px;
 }
 
@@ -29,6 +45,9 @@
     -fx-border-radius: 5px;
 }
 
+.menu-button:hover {
+    -fx-background-color: #444444;
+}
 .pmf-root {
     /* Less padding at bottom because status bar is there anyway */
     -fx-padding: 10px 10px 10px 10px;

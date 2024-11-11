@@ -3,7 +3,12 @@
     -fx-gravity: rear;
 }
 */
+.margin-and-text-line {
+    -fx-background-color: #222222;
+}
 .terminal-split {
+    -fx-background-color: #222222;
+
     -fx-orientation: vertical;
 }
 .terminal-output {
@@ -36,4 +41,41 @@
 /* Slightly darker than white to make input field stand out: */
 .terminal, .terminal-error {
     -fx-background-color: rgb(51,51,51); /*modified*/
+}
+
+.button {
+    -fx-background-color: #222222;
+    -fx-text-fill: #666666;
+}
+
+.menu-bar {
+    -fx-background-color: #111111;
+    -fx-font-size: 15;
+    -fx-font-family: System;
+}
+
+.menu-button:hover {
+    -fx-background-color: #444444;
+}
+
+.context-menu {
+    -fx-background-color: #111111; /* Background color of the context menu */
+    -fx-border-color: #444; /* Border color of the menu */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px;
+}
+
+/* Style for the context menu items */
+.context-menu .menu-item {
+    -fx-background-color: #111111; /* Background color for menu items */
+    -fx-border-radius: 5px;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: #444; /* Background color on hover */
+    -fx-border-radius: 5px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #444444;
 }

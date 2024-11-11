@@ -8,6 +8,31 @@
       tile pane margins to separate different groups of buttons */
     -fx-hgap: 0.5em;
 }
+.scroll-bar {
+    -fx-background-color: #111111;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #222222;  
+    -fx-background-radius: 5px;     
+    -fx-pref-width: 8px;           
+    -fx-pref-height: 8px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #111111;  
+    -fx-background-radius: 5px;    
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;  
+    -fx-opacity: 0;
+}
+
 .moe-top-bar-buttons > .button {
     -fx-label-padding: 0 0.3em 0 0.3em;
 }

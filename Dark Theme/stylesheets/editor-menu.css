@@ -1,0 +1,37 @@
+.editor-menubar {
+    -fx-background-color: #222222;
+    -fx-font-size: 15;
+    -fx-font-family: System;
+}
+
+.line-numbers-context-menu {
+    -fx-background-color: #222222;
+    -fx-font-size: 15;
+    -fx-font-family: System;
+}
+.context-menu {
+    -fx-background-color: #2d2d2d; /* Background color of the context menu */
+    -fx-border-color: #444; /* Border color of the menu */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px;
+}
+
+/* Style for the context menu items */
+.context-menu .menu-item {
+    -fx-background-color: #2d2d2d; /* Background color for menu items */
+    -fx-border-radius: 5px;
+}
+
+.context-menu .menu-item:hover {
+    -fx-background-color: #444; /* Background color on hover */
+    -fx-border-radius: 5px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #444444;
+}
+
+.label:hover {
+    -fx-text-fill: white; 
+}
+
