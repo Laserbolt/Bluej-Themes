@@ -8,14 +8,15 @@
 }
 .terminal-split {
     -fx-background-color: #222222;
-
     -fx-orientation: vertical;
 }
 .terminal-output {
-    -fx-fill: rgb(180, 180, 180); /*modified*/
+    -fx-fill: #333333; /*modified*/
+    -fx-background-color: #222222;
 }
 .terminal-input {
     -fx-fill: rgb(114, 163, 219); /*modified*/
+    -fx-background-color: #222222;
 }
 .terminal-method-record {
     -fx-fill: rgb(160, 99, 99); /*modified*/
@@ -58,6 +59,10 @@
     -fx-background-color: #444444;
 }
 
+.line-container {
+    -fx-background-color: #222222;
+}
+
 .context-menu {
     -fx-background-color: #111111; /* Background color of the context menu */
     -fx-border-color: #444; /* Border color of the menu */
@@ -76,6 +81,3 @@
     -fx-border-radius: 5px;
 }
 
-.menu-button:hover {
-    -fx-background-color: #444444;
-}

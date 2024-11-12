@@ -4,6 +4,19 @@
     -fx-font-family: System;
 }
 
+.menu-button {
+    -fx-background-color: #222222;
+    -fx-background-radius: 5px;
+}
+
+.menu-button:hover {
+    -fx-background-color: #333333;
+}
+
+.menu-button .label {
+    -fx-text-fill: #444444;
+}
+
 .line-numbers-context-menu {
     -fx-background-color: #222222;
     -fx-font-size: 15;
@@ -27,11 +40,29 @@
     -fx-border-radius: 5px;
 }
 
-.menu-button:hover {
-    -fx-background-color: #444444;
+.button {
+    -fx-background-color: #222222;
+    -fx-text-fill: #666666;
 }
 
-.label:hover {
-    -fx-text-fill: white; 
+.button:hover {
+    -fx-background-color: #333333;
 }
 
+.list-cell {
+    -fx-background-color: #222222;
+    -fx-text-fill: #666666;
+}
+
+.button:hover {
+    -fx-background-color: #333333;
+}
+
+.combo-box-base {
+    -fx-background-color: #222222;
+    -fx-text-fill: #666666;
+}
+
+.combo-box-base:hover {
+    -fx-background-color: #333333;
+}

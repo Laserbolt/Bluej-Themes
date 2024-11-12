@@ -5,6 +5,7 @@
 .tabbed-editor > .tab-header-area .tab {
     -fx-border-width: 0 0 2 0;
     -fx-border-color: hsb(0, 0%, 30%);
+    -fx-background-color: red;
 }
 .tabbed-editor > .tab-header-area .bj-tab-error .tab-label {
     -fx-border-width : 0 0 2 0;
@@ -14,16 +15,14 @@
     /* Remove border at bottom of tab when selected: */
     -fx-background-color: rgb(225, 225, 225) !important;
     -fx-border-color: transparent !important;
+    -fx-background-color: red;
 }
 .tabbed-editor > .tab-header-area  {
     -fx-padding: 2 5 -1 5;
+    -fx-background-color: red;
 }
 
 .tabbed-editor .tab-close-button:hover {
     -fx-background-color: darkred;
+    -fx-background-color: red;
 }
-
-.label {
-    -fx-text-fill: #222222;
-}
-
