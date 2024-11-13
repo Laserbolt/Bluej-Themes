@@ -3,16 +3,39 @@
     -fx-gravity: rear;
 }
 */
+.scroll-bar {
+    -fx-background-color: #111111;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #222222;  
+    -fx-background-radius: 5px;     
+    -fx-pref-width: 8px;           
+    -fx-pref-height: 8px;
+}
+.scroll-bar .thumb:hover {
+    -fx-background-color: #333333;
+}
+.scroll-bar .track {
+    -fx-background-color: #111111;  
+    -fx-background-radius: 5px;    
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;  
+    -fx-opacity: 0;
+}
+
 .margin-and-text-line {
     -fx-background-color: #222222;
 }
 .terminal-split {
-    -fx-background-color: #222222;
+    -fx-background-color: #222222 ;
     -fx-orientation: vertical;
 }
 .terminal-output {
     -fx-fill: #333333; /*modified*/
-    -fx-background-color: #222222;
+    -fx-background-color: #222222 ;
 }
 .terminal-input {
     -fx-fill: rgb(114, 163, 219); /*modified*/

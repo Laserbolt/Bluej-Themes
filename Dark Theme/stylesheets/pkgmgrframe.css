@@ -11,6 +11,32 @@
     codepad-input: grey;
     pane-border-color: #222222;
 }
+.scroll-bar {
+    -fx-background-color: #111111;
+    -fx-opacity: 1 !important;
+
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #222222;  
+    -fx-background-radius: 5px;     
+    -fx-pref-width: 8px;           
+    -fx-pref-height: 8px;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #111111;  
+    -fx-background-radius: 5px;    
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: transparent;  
+    -fx-opacity: 0;
+}
 
 .button {
     -fx-background-color: #222222;
