@@ -1,4 +1,4 @@
-@ECHO OFF
+@ECHO ON
 cd %~dp0
 
 call :CheckAdmin
@@ -37,6 +37,7 @@ if "%isAdmin%"=="True" (
     call :ReplaceFiles
     start "" %program%
 	if "%HasPerm%" == "False" (
+	icacls "%~dp0..\.." /grant %username%:(OI^)(CI^)F /T
 	icacls "C:\Program Files\BlueJ\lib\stylesheets" /grant %username%:(OI^)(CI^)F /T
 	)
 	
@@ -61,24 +62,26 @@ goto :eof
 
 :updateClean
 
+REM store actual path not folder
+set "CURRENT_DIR=%cd%"
+
 REM Store the full path of the current directory
 cd ..
-set "CURRENT_DIR=%cd%"
+set "CURRENT_TOP_DIR=%cd%"
 
 REM Move two directories up
 cd ..
-set "PARENT_DIR=%cd%"
+set PARENT_DIR=%cd:\=%
  
 REM Loop through all folders in the current (two-levels-up) directory starting with "Bluej-"
 for /d %%f in ("%PARENT_DIR%\Bluej-*") do (
     REM Check if the folder path matches the current directory's full path
-    if /i not "%%~f"=="%CURRENT_DIR%" (
+    if /i not "%%~f"=="%CURRENT_TOP_DIR%" (
         echo Deleting folder %%f
-         
-        rmdir /s /q "%%~f"
+        echo rmdir /s /q "%%~f"
     )
 )
- 
+
 REM Return to the original directory
 cd "%CURRENT_DIR%"
 goto :eof
@@ -94,6 +97,7 @@ goto :eof
 :CheckPerm
 
 set "HasPerm=False"
+icacls "%~dp0..\.." | findstr "%username%:(OI)(CI)(F)" > nul 2>&1
 icacls "C:\Program Files\BlueJ\lib\stylesheets" | findstr "%username%:(OI)(CI)(F)" > nul 2>&1
 if %errorlevel% == 0 set "HasPerm=True"
 goto :eof
@@ -141,7 +145,7 @@ REM Download the latest ZIP file
 curl -L -s -o "..\..\%zipFile%" "%downloadUrl%"
 
 REM Unzip the file
-powershell -NoProfile -NonInteractive -command "Expand-Archive -Path '..\..\%zipFile%' -DestinationPath '..\..\Bluej-Hub'"
+powershell -NoProfile -NonInteractive -command "Expand-Archive -Path '..\..\%zipFile%' -DestinationPath '..\..\Bluej-Hub-%latestVersion%'"
 
 REM Delete the ZIP file
 del "..\..\%zipFile%"
@@ -151,7 +155,7 @@ taskkill /IM mshta.exe /F > nul 2>&1
 
 REM Open the new HTA
 set tempver=%latestVersion:~1%
-cd ..\..\Bluej-Hub\Bluej-Themes-%tempver%
+cd ..\..\Bluej-Hub-%latestVersion%\Bluej-Themes-%tempver%
 start "" "Menu.hta"
 
 exit /b
