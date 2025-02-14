@@ -83,19 +83,19 @@ This page serves as a theme hub for BlueJ.
 
 This method is preferred but is only possible if the user has administrator rights :
 
-1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu)    
+1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` ( from the dropdown menu )    
 2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.hta`.  
 4. Choose a theme of your choice.
 
 <br>
 <br>
-   OR  
+   OR  (alternate method)
 <br>
 <br>
 <br>
 
-1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` from the dropdown menu.  
+1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` ( from the dropdown menu )
 2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
 3. Go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme` > `stylesheets` or any other theme folder from the options.  
 4. Select all files in the folder and select Copy.  
