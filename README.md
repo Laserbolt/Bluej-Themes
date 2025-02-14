@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Dark Mode Screenshot](https://github.com/Laserbolt/Bluej-Themes/assets/160458697/85c54c94-6b54-4a8d-8c12-bed01eac0dd1)
+![Dark Theme Screenshot](/res/Dark.jpg)  
 
 
 This repository serves as a Hub for themes of Bluej a Java IDE.
