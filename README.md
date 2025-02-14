@@ -64,7 +64,7 @@
 ![Dark Theme Screenshot](/res/Dark.jpg)  
 
 
-This repository serves as a Hub for themes of Bluej a Java IDE.
+This page serves as a Hub for themes of Bluej a Java IDE.
 <br>
 <br>
 
