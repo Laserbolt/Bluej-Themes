@@ -114,6 +114,12 @@ Mac users have find the blueJ application in finder, then right click(or control
 click "Show Package Contents" and paste the CSS files to this location:  
 `Contents/Resources/Java/stylesheets`  
 
+Linux (Ubuntu) :
+
+Ubuntu users have to go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme` > `stylesheets` or any 
+other theme folder from the given options and left click and choose open in terminal.
+then type this command `sudo cp -r * /usr/share/bluej/stylesheets` , restart bluej to see the changes.
+
 Other operating systems paste the files according to [this](https://www.bluej.org/faq.html#faq_config:~:text=to%20generate%20documentation.-,Where%20does%20BlueJ%20store%20its%20settings%3F,-BlueJ%20has%20two) document by the Bluej team
 
 
