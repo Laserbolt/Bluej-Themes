@@ -76,7 +76,7 @@ goto :eof
 :CheckUpdate
 
 REM Fetch and clean the latest release version tag from GitHub API
-for /f "tokens=*" %%i in ('curl -s https://api.github.com/repos/Laserbolt/Bluej-Themes/releases/latest ^| findstr /r /c:"\"tag_name\":"') do (
+for /f "tokens=*" %%i in ('curl -s https://api.github.com/repos/Chroxium/Bluej-Themes/releases/latest ^| findstr /r /c:"\"tag_name\":"') do (
     set latestVersion=%%i
     goto :doneapi
 )
@@ -107,7 +107,7 @@ goto :eof
 
 if "%isAdmin%" == "False" ( call :RequestAdmin )
 
-set downloadUrl=https://github.com/Laserbolt/Bluej-Themes/archive/refs/tags/%latestVersion%.zip
+set downloadUrl=https://github.com/Chroxium/Bluej-Themes/archive/refs/tags/%latestVersion%.zip
 
 REM Download the latest ZIP file
 curl -L -s -o "..\..\Bluej-Hub.zip" "%downloadUrl%"
