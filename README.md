@@ -83,10 +83,11 @@ This page serves as a theme hub for BlueJ.
 
 This method is preferred but is only possible if the user has administrator rights :
 
-1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` ( from the dropdown menu )    
-2. Go to your `Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
-3. Go to `Downloads` > `Bluej-Theme-Hub` and double click to open `Menu.hta`.  
-4. Choose a theme of your choice.
+1\. Click on `Releases` and select `windows.zip`  
+2. Go to your `Downloads` folder, right-click `windows.zip`, and select `Extract All` and select extract.  
+3. Go to `Downloads` > `windows` and double click to install `Install.vbs`.  
+4. Open BlueJ, select `Tools` > `Preferences` or simple press Ctrl+, and choose Extensions.  
+5. Choose your desired theme.
 
 <br>
 <br>
@@ -96,11 +97,11 @@ This method is preferred but is only possible if the user has administrator righ
 <br>
 
 1\. Click on `Code` at the top-right corner of this page and select `Download ZIP` ( from the dropdown menu )
-2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract here`.  
-3. Go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme` > `stylesheets` or any other theme folder from the options.  
-4. Select all files in the folder and select Copy.  
+2. Go to your` Downloads` folder, right-click `Bluej-Theme-Hub.zip`, and select `Extract all` and select extract.  
+3. Go to `Downloads` > `Bluej-Theme-Hub` > `Dark Theme`  or any other theme folder from the options.  
+4. Select the folder and select Copy.  
 5. Go to :  
-   `C:\Program Files\BlueJ\lib\stylesheets`  
+   `C:\Program Files\BlueJ\lib\`  
    and select `Paste`.  
 6. Choose `Replace the existing files with the same names in this folder`, and click `Continue` if needed.  
 7. Restart Bluej. 
